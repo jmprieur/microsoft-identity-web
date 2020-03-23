@@ -12,6 +12,36 @@ namespace Microsoft.Identity.Web.Test
     public class WebApiServiceCollectionExtensionsTests
     {
         [Fact]
+        public void AddProtectedApiCallsWebApis()
+        {
+            throw new NotImplementedException();
+        }
+
+        [Fact]
+        public void AddProtectedWebApi()
+        {
+            throw new NotImplementedException();
+        }
+
+        [Fact]
+        public void AddProtectedWebApiCallsProtectedWebApi()
+        {
+            throw new NotImplementedException();
+        }
+
+        [Fact]
+        public void EnsureAuthorityIsV2_0()
+        {
+            throw new NotImplementedException();
+        }
+
+        [Fact]
+        public void EnsureValidAudiencesContainsApiGuidIfGuidProvided()
+        {
+            throw new NotImplementedException();
+        }
+
+        [Fact]
         public void TestAuthority()
         {
             // Arrange
